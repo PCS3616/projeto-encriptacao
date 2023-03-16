@@ -5,9 +5,8 @@
 Este projeto é uma introdução a Segurança de Informações, disciplina
 muito relevante no contexto de Sistemas de Programação. Para entender
 corretamente o que deve ser feito deve-se entender quais os princípios e
-processos utilizados para proteger arquivos num computador, tudo isso
-será aprofundado na disciplina "Segurança da Informação" em algum
-momento no futuro.
+processos utilizados para proteger arquivos num computador, que serão
+será aprofundados na disciplina "Segurança da Informação".
 
 ## Base de Segurança
 
@@ -61,21 +60,22 @@ Deve ser codificado um algoritmo que leia dados de um arquivo de
 entrada, chamado `file.txt`, e gere um arquivo de saída, chamado
 `file_enc.txt`, com o resultado da aplicação de uma cifra simétrica
 (não necessariamente a RC4 que foi mostrada). Seu código deve ser capaz
-de realizar tanto encriptação do arquivo como decriptação dele, assim
-que escolher uma cifra que faz as duas coisas por um mesmo processo pode
+de realizar tanto encriptação do arquivo quanto decriptação dele, então
+escolher uma cifra que faça as duas coisas por um mesmo processo pode
 ser mais fácil.
-
-### Desafio
-Quando falamos de dumpers e loaders, utilizávamos o checksum
-para verificar se os blocos lidos estão completos. O checksum, porém, é
-uma alternativa fraca para essa finalidade, a melhor escolha para esse
-fim são os algoritmos de hashing, como os da família SHA. Você deve
-incluir uma informação de validação ao fim do arquivo gerado
-correspondendo ao hash do arquivo encriptado.
 
 O trabalho pode ser feito em duplas ou individualmente. Definir escopo
 de uso do encriptador, mensagens de erro coerentes, eventuais limitações
-e funcionalidades não comentadas acima FAZEM parte do trabalho.
+e funcionalidades não comentadas acima fazem parte do trabalho.
+
+### Desafio
+
+Quando falamos de dumpers e loaders, utilizávamos o _checksum_
+para verificar se os blocos lidos estão completos. O _checksum_, porém, é
+uma alternativa fraca para essa finalidade, a melhor escolha para esse
+fim são os algoritmos de _hashing_, como os da família SHA. Você deve
+incluir uma informação de validação ao fim do arquivo gerado
+correspondendo ao _hash_ do arquivo encriptado.
 
 ## Perguntas
 
