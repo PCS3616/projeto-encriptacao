@@ -35,7 +35,8 @@ redefine-se $j=(j+S[i]+chave[i\%len(chave)])\%len(S)$ e troca-se o valor
 de $S[i]$ com $S[j]$. Para realizar a cifração, segmenta-se a mensagem a
 ser cifrada, $M$, em pedaços de tamanho igual a $S$ e, para cada índice
 $k$ de segmentos de $M$, realiza-se novamente a operação sobre $j$
-assumindo $i=k$ e o segmento de mensagem cifrado $M'_k=M_k \oplus S$. A
+assumindo $i=k$ e o segmento de mensagem cifrado $M'_k=M_k \oplus S$, em
+que $\oplus$ representa o operador ou exclusivo (XOR). A
 decifração pode ser feita pelo mesmo processo, já que a operação de ou
 exclusivo é auto-inversa.
 
